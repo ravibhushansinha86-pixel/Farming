@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sun-Kissed Orchards | Fruit Farming</title>
+    <style>
+        /* General Styles */
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            margin: 0;
+            line-height: 1.6;
+            color: #333;
+            background-color: #f9f9f9;
+        }
+
+        header {
+            background: #2d5a27;
+            color: white;
+            padding: 1rem 0;
+            text-align: center;
+        }
+
+        /* Hero Section */
+        .hero {
+            background: #4caf50;
+            color: white;
+            padding: 60px 20px;
+            text-align: center;
+        }
+
+        /* Fruit Gallery */
+        .container {
+            width: 80%;
+            margin: auto;
+            overflow: hidden;
+            padding: 20px;
+        }
+
+        .grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 20px;
+        }
+
+        .card {
+            background: white;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+            padding: 15px;
+            text-align: center;
+            transition: transform 0.3s;
+        }
+
+        .card:hover {
+            transform: translateY(-5px);
+        }
+
+        .card img {
+            max-width: 100%;
+            border-radius: 5px;
+            height: 200px;
+            object-fit: cover;
+        }
+
+        .card h3 {
+            color: #2d5a27;
+        }
+
+        footer {
+            text-align: center;
+            padding: 20px;
+            background: #333;
+            color: white;
+            margin-top: 40px;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Sun-Kissed Orchards</h1>
+    </header>
+
+    <section class="hero">
+        <h2>Fresh from Our Trees to Your Table</h2>
+        <p>Sustainable farming practices for the sweetest harvest.</p>
+    </section>
+
+    <div class="container">
+        <h2 style="text-align: center;">Our Seasonal Fruits</h2>
+        <div class="grid">
+            <div class="card">
+                <img src="https://images.unsplash.com/photo-1560806887-1e4cd0b6cbd6" alt="Red Apples">
+                <h3>Organic Apples</h3>
+                <p>Crisp, juicy, and harvested at peak ripeness.</p>
+            </div>
+
+            <div class="card">
+                <img src="https://images.unsplash.com/photo-1557800636-894a64c1696f" alt="Oranges">
+                <h3>Valencia Oranges</h3>
+                <p>Bursting with vitamin C and natural sweetness.</p>
+            </div>
+
+            <div class="card">
+                <img src="https://images.unsplash.com/photo-1550258114-b09a8a369efd" alt="Pineapple">
+                <h3>Tropical Pineapples</h3>
+                <p>Grown in nutrient-rich soil for maximum flavor.</p>
+            </div>
+        </div>
+    </div>
+
+    <footer>
+        <p>&copy; 2026 Sun-Kissed Orchards | Dedicated to Green Farming</p>
+    </footer>
+
+</body>
+</html>
